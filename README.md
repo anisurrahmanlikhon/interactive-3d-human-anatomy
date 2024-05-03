@@ -1,1 +1,1 @@
-# interactive-3d-human-anatomy
+# Interactive 3D Human Anatomy
