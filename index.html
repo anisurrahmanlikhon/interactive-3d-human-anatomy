@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive 3D Human Anatomy</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999; /* Ensure the header is above other content */
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      max-height: 60px;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .logo-text-space {
+      margin-left: 20px; /* Adjust the space between the logo and text */
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn-footer {
+      margin-bottom: 10px; /* Adjust the space between buttons */
+      background-color: #28a745;
+      color: #fff;
+      border-color: #28a745;
+      transition: all 0.3s ease;
+      width: 200px;
+    }
+
+    .btn-footer:hover {
+      background-color: #218838;
+      border-color: #218838;
+    }
+
+    .main-content {
+      margin-top: 80px; /* Adjust according to the header height */
+      background-image: url('https://cdn.mos.cms.futurecdn.net/yokmYV3AmKddownLPEtYTM.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+    }
+
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 200px); /* Subtracting header and footer height */
+    }
+
+    .btn-custom {
+      background-color: #28a745;
+      color: #fff;
+      border-color: #28a745;
+      transition: all 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #218838;
+      border-color: #218838;
+    }
+	
+	.btn-custom1 {
+      background-color: #00aeff;
+      color: #fff;
+      border-color: #00aeff;
+      transition: all 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #218838;
+      border-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <!-- Header Content Container -->
+  <div class="header-content">
+    <!-- Logo -->
+    <img src="https://play-lh.googleusercontent.com/VlgAL64t5Sx1Bd4UL8kSssOOdjTcPfcMotp4st1QGM2h_PnjIFK52xMFVcm8Ml16o6XS" alt="Logo" class="logo">
+    <!-- Add space between logo and text -->
+    <div class="logo-text-space"></div>
+    <!-- Header Title -->
+    <a href="index.html"><h1 >Interactive 3D Human Anatomy</h1></a>
+  </div>
+  <!-- Any additional header content can be added here -->
+</div>
+
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 centered">
+        <!-- Button 1 -->
+         <a href="male anatomy.html" target="blank"<button type="button" class="btn btn-custom btn-lg mr-2">👨 Male</button></a>
+        <!-- Button 2 -->
+        <a href="female anatomy.html" target="blank"<button type="button" class="btn btn-custom btn-lg">👩 Female</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <!-- Footer Content Container -->
+  <div class="footer-content">
+    <!-- Button 3 -->
+    <button type="button" class="btn btn-custom1 btn-lg btn-footer">👤 About Me</button>
+    <!-- Button 4 -->
+    <button type="button" class="btn btn-custom1 btn-lg btn-footer">Git Repo</button>
+  </div>
+  <!-- Any additional footer content can be added here -->
+</div>
+
+<!-- Bootstrap JS and jQuery (Optional, for advanced Bootstrap features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
