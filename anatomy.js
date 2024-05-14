@@ -182,3 +182,369 @@ const anatomy = {
 
 // Export the anatomy object
 module.exports = anatomy;
+
+// anatomy.js
+
+const anatomy = {
+  head: {
+    eyes: {
+      count: 2,
+      color: "brown",
+      function: "vision",
+    },
+    ears: {
+      count: 2,
+      shape: "oval",
+      function: "hearing",
+    },
+    nose: {
+      count: 1,
+      shape: "triangular",
+      function: "smell",
+    },
+    mouth: {
+      count: 1,
+      shape: "oval",
+      function: "eating",
+    },
+    brain: {
+      hemisphere: 2,
+      function: "cognition",
+    },
+  },
+  torso: {
+    arms: {
+      count: 2,
+      length: "variable",
+      function: "manipulation",
+    },
+    legs: {
+      count: 2,
+      length: "variable",
+      function: "mobility",
+    },
+    heart: {
+      count: 1,
+      size: "fist-sized",
+      function: "circulation",
+    },
+    lungs: {
+      count: 2,
+      capacity: "variable",
+      function: "respiration",
+    },
+    stomach: {
+      count: 1,
+      size: "variable",
+      function: "digestion",
+    },
+    liver: {
+      count: 1,
+      function: "detoxification",
+    },
+    kidneys: {
+      count: 2,
+      function: "filtration",
+    },
+    intestines: {
+      count: 2,
+      type: ["small", "large"],
+      function: "absorption",
+    },
+  },
+  limbs: {
+    hands: {
+      count: 2,
+      fingers: 5,
+      function: "grasping",
+    },
+    feet: {
+      count: 2,
+      toes: 5,
+      function: "balance",
+    },
+  },
+  skin: {
+    type: "variable",
+    function: "protection",
+  },
+  // Add more body parts as needed
+};
+
+// Export the anatomy object
+module.exports = anatomy;
+
+
+// anatomy.js
+
+const anatomy = {
+  head: {
+    eyes: {
+      count: 2,
+      color: "brown",
+      function: "vision",
+    },
+    ears: {
+      count: 2,
+      shape: "oval",
+      function: "hearing",
+    },
+    nose: {
+      count: 1,
+      shape: "triangular",
+      function: "smell",
+    },
+    mouth: {
+      count: 1,
+      shape: "oval",
+      function: "eating",
+    },
+    brain: {
+      hemisphere: 2,
+      function: "cognition",
+    },
+  },
+  torso: {
+    arms: {
+      count: 2,
+      length: "variable",
+      function: "manipulation",
+    },
+    legs: {
+      count: 2,
+      length: "variable",
+      function: "mobility",
+    },
+    heart: {
+      count: 1,
+      size: "fist-sized",
+      function: "circulation",
+    },
+    lungs: {
+      count: 2,
+      capacity: "variable",
+      function: "respiration",
+    },
+    stomach: {
+      count: 1,
+      size: "variable",
+      function: "digestion",
+    },
+    liver: {
+      count: 1,
+      function: "detoxification",
+    },
+    kidneys: {
+      count: 2,
+      function: "filtration",
+    },
+    intestines: {
+      count: 2,
+      type: ["small", "large"],
+      function: "absorption",
+    },
+  },
+  limbs: {
+    hands: {
+      count: 2,
+      fingers: 5,
+      function: "grasping",
+    },
+    feet: {
+      count: 2,
+      toes: 5,
+      function: "balance",
+    },
+  },
+  skin: {
+    type: "variable",
+    function: "protection",
+  },
+  // Add more body parts as needed
+};
+
+// Export the anatomy object
+module.exports = anatomy;
+
+// anatomy.js
+
+const anatomy = {
+  head: {
+    eyes: {
+      count: 2,
+      color: "brown",
+      function: "vision",
+    },
+    ears: {
+      count: 2,
+      shape: "oval",
+      function: "hearing",
+    },
+    nose: {
+      count: 1,
+      shape: "triangular",
+      function: "smell",
+    },
+    mouth: {
+      count: 1,
+      shape: "oval",
+      function: "eating",
+    },
+    brain: {
+      hemisphere: 2,
+      function: "cognition",
+    },
+  },
+  torso: {
+    arms: {
+      count: 2,
+      length: "variable",
+      function: "manipulation",
+    },
+    legs: {
+      count: 2,
+      length: "variable",
+      function: "mobility",
+    },
+    heart: {
+      count: 1,
+      size: "fist-sized",
+      function: "circulation",
+    },
+    lungs: {
+      count: 2,
+      capacity: "variable",
+      function: "respiration",
+    },
+    stomach: {
+      count: 1,
+      size: "variable",
+      function: "digestion",
+    },
+    liver: {
+      count: 1,
+      function: "detoxification",
+    },
+    kidneys: {
+      count: 2,
+      function: "filtration",
+    },
+    intestines: {
+      count: 2,
+      type: ["small", "large"],
+      function: "absorption",
+    },
+  },
+  limbs: {
+    hands: {
+      count: 2,
+      fingers: 5,
+      function: "grasping",
+    },
+    feet: {
+      count: 2,
+      toes: 5,
+      function: "balance",
+    },
+  },
+  skin: {
+    type: "variable",
+    function: "protection",
+  },
+  // Add more body parts as needed
+};
+
+// Export the anatomy object
+module.exports = anatomy;
+
+// anatomy.js
+
+const anatomy = {
+  head: {
+    eyes: {
+      count: 2,
+      color: "brown",
+      function: "vision",
+    },
+    ears: {
+      count: 2,
+      shape: "oval",
+      function: "hearing",
+    },
+    nose: {
+      count: 1,
+      shape: "triangular",
+      function: "smell",
+    },
+    mouth: {
+      count: 1,
+      shape: "oval",
+      function: "eating",
+    },
+    brain: {
+      hemisphere: 2,
+      function: "cognition",
+    },
+  },
+  torso: {
+    arms: {
+      count: 2,
+      length: "variable",
+      function: "manipulation",
+    },
+    legs: {
+      count: 2,
+      length: "variable",
+      function: "mobility",
+    },
+    heart: {
+      count: 1,
+      size: "fist-sized",
+      function: "circulation",
+    },
+    lungs: {
+      count: 2,
+      capacity: "variable",
+      function: "respiration",
+    },
+    stomach: {
+      count: 1,
+      size: "variable",
+      function: "digestion",
+    },
+    liver: {
+      count: 1,
+      function: "detoxification",
+    },
+    kidneys: {
+      count: 2,
+      function: "filtration",
+    },
+    intestines: {
+      count: 2,
+      type: ["small", "large"],
+      function: "absorption",
+    },
+  },
+  limbs: {
+    hands: {
+      count: 2,
+      fingers: 5,
+      function: "grasping",
+    },
+    feet: {
+      count: 2,
+      toes: 5,
+      function: "balance",
+    },
+  },
+  skin: {
+    type: "variable",
+    function: "protection",
+  },
+  // Add more body parts as needed
+};
+
+// Export the anatomy object
+module.exports = anatomy;
+
